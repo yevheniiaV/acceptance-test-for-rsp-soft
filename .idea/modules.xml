@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acceptance-test-for-rsp-soft.iml" filepath="$PROJECT_DIR$/.idea/modules/acceptance-test-for-rsp-soft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acceptance-test-for-rsp-soft_main.iml" filepath="$PROJECT_DIR$/.idea/modules/acceptance-test-for-rsp-soft_main.iml" group="acceptance-test-for-rsp-soft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acceptance-test-for-rsp-soft_test.iml" filepath="$PROJECT_DIR$/.idea/modules/acceptance-test-for-rsp-soft_test.iml" group="acceptance-test-for-rsp-soft" />
+      <module fileurl="file://$PROJECT_DIR$/serenityxample.iml" filepath="$PROJECT_DIR$/serenityxample.iml" />
+    </modules>
+  </component>
+</project>

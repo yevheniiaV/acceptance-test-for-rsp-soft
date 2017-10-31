@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>stories.fill_the_brief.FillTheBrief</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/fill_the_brief/FillTheBrief.story</div>
+<div class="scenario">
+<h2>Scenario: Fill the brief</h2>
+<div class="step successful">Given the user is on the RSP home page</div>
+<div class="step failed">When the user go to brief page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.junit.ComparisonFailure: expected:&lt;...://www.rsp-soft.com/[brief/]&gt; but was:&lt;...://www.rsp-soft.com/[]&gt;</span></div>
+<div class="step notPerformed">Then they should see the definition '$definition' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">org.junit.ComparisonFailure: expected:&lt;...://www.rsp-soft.com/[brief/]&gt; but was:&lt;...://www.rsp-soft.com/[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.test.pages.MainPage.go_to_Brief_Page(MainPage.java:22)
+	at com.test.steps.serenity.EndUserSteps.go_To_Brief_Page(EndUserSteps.java:19)
+	at com.test.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$9c413700.CGLIB$go_To_Brief_Page$1(&lt;generated&gt;)
+	at com.test.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$9c413700$$FastClassByCGLIB$$dd26789d.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.test.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$9c413700.go_To_Brief_Page(&lt;generated&gt;)
+	at com.test.steps.DefinitionSteps.whenTheUserGoToBriefPage(DefinitionSteps.java:22)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</pre>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

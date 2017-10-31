@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Lookup a definition","Looking up the definition of 'apple'","PENDING","2017-10-09T20:18:03.536+03:00[EET]","0.0","0.14"
+"Lookup a definition","Looking up the definition of 'pear'","PENDING","2017-10-09T20:18:03.778+03:00[EET]","0.0","0.02"
+"Fill the brief","Fill the brief","ERROR","2017-10-10T19:31:55.558+03:00[EET]","0.0","17.1"

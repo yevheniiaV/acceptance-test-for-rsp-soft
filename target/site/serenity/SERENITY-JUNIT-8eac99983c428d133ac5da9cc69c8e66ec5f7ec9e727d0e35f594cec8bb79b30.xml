@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Fill the brief" skipped="0" tests="1" time="14.43" timestamp="2017-10-31T15:47:47.825+02:00[EET]"><testcase name="Fill the brief"><failure message="expected:&lt;...://www.rsp-soft.com/[brief/]&gt; but was:&lt;...://www.rsp-soft.com/[]&gt;" type="org.junit.ComparisonFailure">expected:&lt;...://www.rsp-soft.com/[brief/]&gt; but was:&lt;...://www.rsp-soft.com/[]&gt;</failure><system-err>expected:&lt;...://www.rsp-soft.com/[brief/]&gt; but was:&lt;...://www.rsp-soft.com/[]&gt;&#13;
+com.test.pages.MainPage.go_to_Brief_Page(MainPage.java:22)&#13;
+com.test.steps.serenity.EndUserSteps.go_To_Brief_Page(EndUserSteps.java:19)&#13;
+com.test.steps.DefinitionSteps.whenTheUserGoToBriefPage(DefinitionSteps.java:22)&#13;
+</system-err></testcase></testsuite>
