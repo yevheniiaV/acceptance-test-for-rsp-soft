@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="serenityxample" />
+        <module name="serenity-xample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="acceptance-test-for-rsp-soft_main" target="1.8" />
-      <module name="acceptance-test-for-rsp-soft_test" target="1.8" />
-      <module name="serenityxample" target="1.8" />
+      <module name="serenity-xample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -8,9 +8,24 @@
 
     <title>Serenity Reports</title>
 
-    <link rel="shortcut icon" href="favicon.ico">
-
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <!--[if IE 7]>
 <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
 <![endif]--><!-- JQuery -->
@@ -40,13 +55,13 @@
             [
                 ['Passing', 0],
                 
-                ['Pending', 0],
+                ['Pending', 1],
                 
                 ['Ignored/Skipped', 0],
                 
                 ['Failing', 0],
                 
-                ['Errors',  1],
+                ['Errors',  0],
                 ['Compromised',  0]
             ]
         ], {
@@ -78,10 +93,10 @@
             },
             series: [
                 {label: '0 / 1 tests passed' },
-                {label: '0 / 1 tests pending'},
+                {label: '1 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed'},
-                {label: '1 / 1 errors'},
+                {label: '0 / 1 errors'},
                 {label: '0 / 1 compromised tests'}
             ]
         });
@@ -90,13 +105,13 @@
             [
                 ['Passing', 0],
                 
-                ['Pending', 0],
+                ['Pending', 1],
                 
                 ['Ignored', 0],
                 
                 ['Failing', 0],
                 
-                ['Errors', 1],
+                ['Errors', 0],
                 ['Compromised', 0],
             ]
         ], {
@@ -129,10 +144,10 @@
             },
             series: [
                 {label: '0 / 1 tests passed (0% of all test steps)' },
-                {label: '0 / 1 tests pending'},
+                {label: '1 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed (0% of all test steps)'},
-                {label: '1 / 1 errors (1% of all test steps)'}
+                {label: '0 / 1 errors (0% of all test steps)'}
             ]
         });
 
@@ -179,8 +194,10 @@
 <div id="contenttop">
     <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                > <a href="b8eb7f8f9cc6eebb6ed3d7f05adc1999354f63f150efa60232ece89b15c56b54.html" title="Fill The Brief (breadcrumbType)">Fill The Brief</a>
-                > Fill The Brief
+                > <a href="b8eb7f8f9cc6eebb6ed3d7f05adc1999354f63f150efa60232ece89b15c56b54.html" title="Fill The Brief (breadcrumbType)">
+                    Fill The Brief
+                </a>
+                > <span class="truncate-60">Fill The Brief</span>
         </span>
     </div>
     <div class="rightbg"></div>
@@ -200,11 +217,8 @@
         <li >
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
-        <li >
-            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
-        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-10-2017 19:33</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-11-2017 17:52</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -224,19 +238,9 @@
 
                     <span class="test-count"> |
                         1
-                            <a href="e4c729be36de9728620c94d878d445b1aacda3ceeb7c102bdec28279bdceeda1.html">unsuccessful</a>
+                            <a href="900ebb47873093567f72c1e6e33dee11bc4734f8c3cbb627bbe54e9429b58704.html">pending</a>
                         
-                    </span>(
-                    <span class="test-count">
-                        0
-                            <a href="aff804053252257c06fb638c522f375c2318aa21fa299f3d45c43f580611ab1d.html">failed</a>
-                        ,
                     </span>
-                    <span class="test-count">
-                        1
-                            <a href="0a9a9eed40a68c72a645c1992a9d598991bd039ef1cfa6ad04158d3df3a14e85.html">with errors</a>
-                        
-                    </span>)
 
                 
 
@@ -289,8 +293,8 @@
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -305,13 +309,13 @@
             <td class="summary-leading-column">Total</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
+                <td colspan="5">21 seconds</td>
         </tr>
         </body>
     </table>
@@ -333,7 +337,7 @@
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="ERROR-text ellipsis">
+                        <span class="PENDING-text ellipsis">
                                 <a href="366a6729401e1483a73f2ef8ac4237e9091cc279daa3aa8d429e6d176acf3cc3.html" title="Fill The Brief">Fill The Brief</a>
                         </span>
                     </td>
@@ -346,17 +350,17 @@
                                 <td width="150px">
                                     <a href="366a6729401e1483a73f2ef8ac4237e9091cc279daa3aa8d429e6d176acf3cc3.html">
                                         <div class="pendingbar"
-                                             title="0 out of 1 tests (0 steps) pending"
+                                             title="1 out of 1 tests (5 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 150px;"
+                                                 style="width: 0px;"
                                                  title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 150px;"
+                                                     style="width: 0px;"
                                                      title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 150px;"
-                                                         title="1 out of 1 tests (6 steps) broken">
+                                                         style="width: 0px;"
+                                                         title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 0px;"
                                                              title="0 out of 1 tests (0 steps) failing">
@@ -386,7 +390,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 6) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 5) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -420,8 +424,8 @@
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -436,13 +440,13 @@
             <td class="summary-leading-column">Total</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
+                <td colspan="5">21 seconds</td>
         </tr>
         </body>
     </table>
@@ -464,7 +468,7 @@
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="ERROR-text ellipsis">
+                        <span class="PENDING-text ellipsis">
                                 <a href="366a6729401e1483a73f2ef8ac4237e9091cc279daa3aa8d429e6d176acf3cc3.html" title="Fill The Brief">Fill The Brief</a>
                         </span>
                     </td>
@@ -477,17 +481,17 @@
                                 <td width="150px">
                                     <a href="366a6729401e1483a73f2ef8ac4237e9091cc279daa3aa8d429e6d176acf3cc3.html">
                                         <div class="pendingbar"
-                                             title="0 out of 1 tests (0 steps) pending"
+                                             title="1 out of 1 tests (5 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 150px;"
+                                                 style="width: 0px;"
                                                  title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 150px;"
+                                                     style="width: 0px;"
                                                      title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 150px;"
-                                                         title="1 out of 1 tests (6 steps) broken">
+                                                         style="width: 0px;"
+                                                         title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 0px;"
                                                              title="0 out of 1 tests (0 steps) failing">
@@ -538,27 +542,27 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
                                     <div class="ellipsis">
 
                                         <a href="8eac99983c428d133ac5da9cc69c8e66ec5f7ec9e727d0e35f594cec8bb79b30.html" class="ellipsis"
-                                           title="Fill the brief No such element exception: Timed out ...">
+                                           title="Fill the brief ">
                                             Fill the brief
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">6</td>
+                                <td class="PENDING-text">5</td>
 
 
-                                <td class="ERROR-text" data-sort="2017-10-10 19:31:55">19:31:55</td>
+                                <td class="PENDING-text" data-sort="2017-11-01 15:01:33">15:01:33</td>
 
-                                <td class="ERROR-text">17.1</td>
+                                <td class="PENDING-text">21.4</td>
                             </tr>
                         </tbody>
                     </table>

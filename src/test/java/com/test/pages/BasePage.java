@@ -5,6 +5,6 @@ import org.openqa.selenium.WebElement;
 
 public interface BasePage {
 
-    WebElement waitForElement(Object object);
+    void fillTextField(WebElement element, String text);
 
 }

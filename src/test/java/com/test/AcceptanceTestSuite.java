@@ -1,7 +1,11 @@
 package com.test;
 
-import net.serenitybdd.jbehave.SerenityStories;
+import cucumber.api.CucumberOptions;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.runner.RunWith;
 
-public class AcceptanceTestSuite extends SerenityStories {
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions(features="src/test/resources/features")
+public class AcceptanceTestSuite {
 
 }

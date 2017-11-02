@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Tue Oct 31 15:48:03 EET 2017
-stories/fill_the_brief/FillTheBrief.story=15000
+#Wed Nov 01 15:01:55 EET 2017
+stories/fill_the_brief/FillTheBrief.story=22000
 threads=1
-total=15000
-threadAverage=15000
+total=22000
+threadAverage=22000

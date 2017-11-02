@@ -15,14 +15,26 @@ public class EndUserSteps {
     }
 
     @Step
-    public void go_To_Brief_Page() {
-       mainPage.go_to_Brief_Page();
+    public void go_to_brief_page() {
+       mainPage.go_to_brief_page();
     }
 
     @Step
-    public void starts_search() {
+    public void select_type_of_product(String product_name){
+        briefPage.select_type_of_product(product_name);
+    };
+
+    @Step
+    public void go_to_the_second_page_of_brief(){
         briefPage.go_to_second_step();
     }
+    @Step
+    public void click_send_button(){
+        briefPage.click_send_button();
+    }
 
-
+    @Step
+    public void fill_phone_input(String phone_number){
+        fill_phone_input(phone_number);
+    }
 }

@@ -11,14 +11,16 @@ import static org.junit.Assert.assertEquals;
 public class MainPage extends PageObject {
 
     @FindBy(linkText="Brief")
-    private WebElementFacade brief;
+    private WebElementFacade brief_button;
 
     @FindBy(name="go")
-    private WebElementFacade lookupButton;
+    private WebElementFacade lookup_button;
 
+    // TYPE OF PRODUCT
 
-    public void go_to_Brief_Page() {
+    public void go_to_brief_page() {
         BriefPage briefPage = this.switchToPage(BriefPage.class);
+        briefPage.open();
         assertEquals("http://www.rsp-soft.com/brief/", getDriver().getCurrentUrl());
     }
 
